@@ -3,15 +3,15 @@
  <channel>
   <title>Λir's Blog: Λir's Blog</title>
   <description>Λir's Blog: Λir's Blog</description>
-  <link>http://www.example.com/index.html</link>
+  <link>https://lambdair-blog.netlify.com/index.html</link>
   <lastBuildDate>Wed, 29 Jan 2020 03:40:00 UT</lastBuildDate>
   <pubDate>Wed, 29 Jan 2020 03:40:00 UT</pubDate>
   <ttl>1800</ttl>
   <item>
    <title>frogでブログ作成</title>
-   <link>http://www.example.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;utm_medium=RSS</link>
-   <guid isPermaLink="false">urn:http-www-example-com:-2020-01-frog-E3-81-A6-E3-82-99-E3-83-95-E3-82-99-E3-83-AD-E3-82-AF-E3-82-99-E4-BD-9C-E6-88-90-html</guid>
+   <link>https://lambdair-blog.netlify.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-lambdair-blog-netlify-com:-2020-01-frog-E3-81-A6-E3-82-99-E3-83-95-E3-82-99-E3-83-AD-E3-82-AF-E3-82-99-E4-BD-9C-E6-88-90-html</guid>
    <pubDate>Wed, 29 Jan 2020 03:40:00 UT</pubDate>
    <author>Lambdair</author>
    <description>
-&lt;p&gt;友人がブログを作成したので，自分もブログを作りたいと思ってこのブログを作成しました． 使用した技術は&lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt;の&lt;a href="https://docs.racket-lang.org/frog/index.html"&gt;frog&lt;/a&gt;というパッケージです．&lt;/p&gt;&lt;a href="http://www.example.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
+&lt;p&gt;友人がブログを作成したので，自分もブログを作りたいと思ってこのブログを作成しました． 使用した技術は&lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt;の&lt;a href="https://docs.racket-lang.org/frog/index.html"&gt;frog&lt;/a&gt;というパッケージです．&lt;/p&gt;&lt;a href="https://lambdair-blog.netlify.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
