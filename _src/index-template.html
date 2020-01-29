@@ -1,0 +1,11 @@
+<article>
+  <header>
+    <h2><a href='@|uri-path|'>@|title|</a></h2>
+    <p class='date-and-tags'>@|date| :: @|tags|</p>
+  </header>
+  @|content-only|
+  @(when more?
+    @list{<footer>
+            <a class="btn btn-primary" href='@|uri-path|' role="button">more</a>
+          </footer>})
+</article>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">Λir's Blog: Λir's Blog</title>
+ <link rel="self" href="http://www.example.com/feeds/all.atom.xml" />
+ <link href="http://www.example.com/index.html" />
+ <id>urn:http-www-example-com:-index-html</id>
+ <updated>2020-01-29T03:40:00Z</updated>
+ <entry>
+  <title type="text">frogでブログ作成</title>
+  <link rel="alternate" href="http://www.example.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:http-www-example-com:-2020-01-frog-E3-81-A6-E3-82-99-E3-83-95-E3-82-99-E3-83-AD-E3-82-AF-E3-82-99-E4-BD-9C-E6-88-90-html</id>
+  <published>2020-01-29T03:40:00Z</published>
+  <updated>2020-01-29T03:40:00Z</updated>
+  <author>
+   <name>Lambdair</name></author>
+  <content type="html">
+&lt;p&gt;友人がブログを作成したので，自分もブログを作りたいと思ってこのブログを作成しました． 使用した技術は&lt;a href="https://racket-lang.org/"&gt;Racket&lt;/a&gt;の&lt;a href="https://docs.racket-lang.org/frog/index.html"&gt;frog&lt;/a&gt;というパッケージです．&lt;/p&gt;&lt;a href="http://www.example.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>

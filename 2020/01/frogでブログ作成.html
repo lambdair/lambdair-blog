@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="google-site-verification" content="r9fz9WMJUpK8FrVCe4uyIMaLt4-nn6-RZSKrU8uYAOo" />
+    <meta charset="utf-8">
+    <title>frogでブログ作成</title>
+    <meta name="description" content="友人がブログを作成したので，自分もブログを作りたいと思ってこのブログを作成しました． 使用した技術はRacketのfrogというパッケージです．...">
+    <meta name="author"      content="Lambdair">
+    <meta name="keywords"    content="Racket">
+    <meta name="viewport"    content="width=device-width, initial-scale=1.0">
+    <link rel="icon"      href="/favicon.ico">
+    <link rel="canonical" href="http://www.example.com/2020/01/frog%E3%81%A6%E3%82%99%E3%83%95%E3%82%99%E3%83%AD%E3%82%AF%E3%82%99%E4%BD%9C%E6%88%90.html">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
+    <link rel="stylesheet" type="text/css" href="/css/scribble.css">
+    <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.min.css">
+    <!-- Feeds -->
+    <link rel="alternate" type="application/atom+xml"
+          href="/feeds/all.atom.xml" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml"
+          href="/feeds/all.rss.xml" title="RSS Feed">
+    <!-- JS -->
+    <script type="text/javascript">
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-xxxxx', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+
+    <!-- A standard Twitter Bootstrap nav bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+
+      <a href="/index.html" class="navbar-brand">Λir's Blog</a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+              data-target="#navbar_collapse" aria-controls="navbar_collapse"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar_collapse">
+          <ul class="navbar-nav mr-auto">
+
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                Tags <b class="caret"></b>
+              </a>
+
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="/tags/Racket.html">Racket</a>
+              </div>
+            </li>
+
+            <li>
+              <a class="nav-link" href="/About.html">About</a>
+            </li> 
+
+            <li class="nav-item">
+              <a class="nav-link" href="/feeds/all.atom.xml">Atom</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/feeds/all.rss.xml">RSS</a>
+            </li>
+          </ul>
+      </div>
+
+      </div>
+    </nav>
+
+
+    <div class="container">
+      <div class="row">
+
+        <!-- Main column -->
+        <div id="content" class="col-md-12">
+
+
+
+
+
+          <article>
+  <header>
+    <h1>frogでブログ作成</h1>
+    <p class='date-and-tags'>
+<time datetime="2020-01-29" pubdate="true">2020-01-29</time> :: <span class="tags"><a href="/tags/Racket.html">Racket</a></span></p>
+  </header>
+
+<p>友人がブログを作成したので，自分もブログを作りたいと思ってこのブログを作成しました． 使用した技術は<a href="https://racket-lang.org/">Racket</a>の<a href="https://docs.racket-lang.org/frog/index.html">frog</a>というパッケージです．</p>
+<!-- more-->
+
+<h2 id="racket">Racket</h2>
+
+<p>RacketはSchemeというLisp方言の派生です．私も名前は聞いたことがあるのですけれど触れたのは最近です． <strong>language-oriented programming</strong>と銘打っていてなかなかおもしろそうです． 具体的な説明はまた今度記事にしようと思います．</p>
+
+<h2 id="frog">frog</h2>
+
+<p>frogはいわゆる静的サイトジェネレータです．前記の通りこのブログもfrogで作成されています． かなり簡単にブログを作成することができます．</p>
+
+<h3 id="インストール">インストール</h3>
+
+<p>まずRacketをインストールする必要があります．Racketを<a href="https://download.racket-lang.org/">公式パッケージ</a>からダウンロードしてインストールします．インストールが終わったらターミナルで<code>raco pkg install frog</code>と打ちfrogをインストールします． プロジェクトフォルダを作成してフォルダの中に移動し，<code>raco frog --init</code>と入力するとテンプレートが作成されます．</p>
+
+<h3 id="仕様">仕様</h3>
+
+<p>具体的な仕様について述べると，触れるのは基本的に_srcに入ってる ファイルです．<code>raco frog -n "記事の名前"</code>というようにコマンド打つとpostというフォルダに新しくマークダウン ファイルが作成され，これを編集することで簡単に記事が作成できます．</p>
+
+<p>ブログのデザインは_srcに入っている</p>
+
+<ul>
+ <li>index-template.html</li>
+ <li>post-template.html</li>
+ <li>page-template.html</li></ul>
+
+<p>を編集することで変更できます．このブログもここをいじって見た目を少し変えています． index-templateはトップページのデザイン，post-templateは記事のデザイン，page-templateは共通するブログのデザインに関わっています．</p>
+  <footer>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
+
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</article>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        <a href="https://twitter.com/Lambdair1984"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/lambdair"><i class="fab fa-github"></i></a>
+        <p>Site generated
+        by <a href="https://github.com/greghendershott/frog">Frog</a>,
+        the <strong>fr</strong>ozen bl<strong>og</strong> tool.</p>
+        <p>Using <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+      </footer>
+    </div>
+    <!-- </body> JS -->
+    <script type="text/javascript" src="/js/jquery-3.4.1.slim.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
